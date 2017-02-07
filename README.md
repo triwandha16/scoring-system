@@ -1,3 +1,0 @@
-# scoring-system
-
-Gue keren.
