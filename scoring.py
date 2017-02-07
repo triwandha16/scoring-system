@@ -6,6 +6,8 @@ pygame.init()
 def OpeningText():
 	print "***********************"
 	print "**  SCORING SYSTEM   **"
+	print "**-------------------**"
+	print "**triwandha@gmail.com**"
 	print "***********************"
 	pygame.joystick.init()
 	joysticks = [pygame.joystick.Joystick(x) for x in range(pygame.joystick.get_count())]
