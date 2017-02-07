@@ -5,8 +5,12 @@ import time
 pygame.init()
 def OpeningText():
 	print "***********************"
+<<<<<<< HEAD
 	print "**  SCORING SYSTEM   **"
 	print "**   triwandha16     x*"
+=======
+	print "**  SCORING SYSTEM   *s*"
+>>>>>>> testing
 	print "***********************"
 	pygame.joystick.init()
 	joysticks = [pygame.joystick.Joystick(x) for x in range(pygame.joystick.get_count())]
